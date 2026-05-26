@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cacereca Publicidad | Publicidad, Ploteados y Cartelería en Ñemby</title>
+  <meta name="description" content="Cacereca Publicidad en Ñemby: ploteados, serigrafía, cartelería, calcomanías, sublimación, remeras y diseño personalizado para empresas y vehículos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: #050505;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+    a { text-decoration: none; color: inherit; }
+    .page {
+      width: min(490px, 94%);
+      margin: 0 auto;
+      padding: 26px 0 42px;
+    }
+    .profile { text-align: center; margin-bottom: 22px; }
+    .logo-wrap {
+      width: 136px;
+      height: 136px;
+      border-radius: 50%;
+      background: #fff200;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 4px solid #ffffff;
+      box-shadow: 0 12px 28px rgba(255,242,0,.25);
+    }
+    .logo-text {
+      color: #000;
+      font-weight: 900;
+      font-size: 17px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: -.5px;
+      text-align: center;
+    }
+    .profile h1 {
+      font-size: 28px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -.5px;
+      margin-bottom: 8px;
+    }
+    .bio {
+      font-size: 14px;
+      color: #e8e8e8;
+      max-width: 410px;
+      margin: 0 auto 14px;
+      line-height: 1.55;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .icons a {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #fff;
+      color: #000;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 12px;
+    }
+    .section-label {
+      font-size: 13px;
+      color: #bdbdbd;
+      text-align: center;
+      margin: 18px 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .button-list { display: flex; flex-direction: column; gap: 13px; }
+    .link-btn {
+      background: #fff200;
+      color: #000000;
+      min-height: 58px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 14px 18px;
+      font-weight: 800;
+      font-size: 15px;
+      border: 3px solid #ffffff;
+      box-shadow: 0 7px 0 #b69f00;
+      transition: .18s ease;
+    }
+    .link-btn:hover { transform: translateY(3px); box-shadow: 0 4px 0 #b69f00; }
+    .link-btn.dark { background: #111; color: #fff; border-color: #fff200; box-shadow: 0 7px 0 #333; }
+    .card {
+      background: #101010;
+      border: 2px solid #ffffff;
+      border-radius: 22px;
+      padding: 20px;
+      margin: 18px 0;
+    }
+    .card h2 {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      color: #fff200;
+      text-align: center;
+    }
+    .card p, .card li { font-size: 14px; color: #efefef; line-height: 1.6; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .mini-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .mini {
+      background: #fff;
+      color: #000;
+      border-radius: 15px;
+      padding: 13px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .quote {
+      background: linear-gradient(180deg, #fff200 0%, #caa900 100%);
+      color: #000;
+      border-radius: 22px;
+      padding: 22px;
+      margin: 20px 0;
+      text-align: center;
+      border: 3px solid #fff;
+    }
+    .quote h2 { font-size: 22px; text-transform: uppercase; margin-bottom: 8px; font-weight: 900; }
+    .quote p { font-size: 14px; font-weight: 600; }
+    .service-title { display: block; font-size: 16px; }
+    .service-small { display: block; font-size: 12px; font-weight: 600; margin-top: 2px; opacity: .86; }
+    footer { text-align: center; color: #aaa; font-size: 12px; margin-top: 24px; line-height: 1.6; }
+    @media (max-width: 420px) {
+      .profile h1 { font-size: 24px; }
+      .link-btn { font-size: 14px; }
+      .mini-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="profile" id="inicio">
+      <div class="logo-wrap">
+        <div class="logo-text">CACERECA<br>PUBLICIDAD</div>
+      </div>
+      <h1>Cacereca Publicidad</h1>
+      <p class="bio">Hacemos publicidad que ayuda a tu empresa a vender más. Ploteados, serigrafía, cartelería, sublimación, calcomanías, remeras y diseños personalizados.</p>
+      <div class="icons">
+        <a href="https://www.instagram.com/cacerecapublicidad" target="_blank">IG</a>
+        <a href="https://www.tiktok.com/@cacereca" target="_blank">TK</a>
+        <a href="https://www.facebook.com/cacerecapublicidad" target="_blank">FB</a>
+        <a href="mailto:cacerecapublicidad@gmail.com">MAIL</a>
+      </div>
+    </section>
+
+    <p class="section-label">Accesos rápidos</p>
+    <section class="button-list">
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%20Cacereca%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank">💬 Solicitar cotización por WhatsApp</a>
+      <a class="link-btn dark" href="#servicios">📌 Ver servicios</a>
+      <a class="link-btn dark" href="#contacto">📍 Contacto y ubicación</a>
+    </section>
+
+    <section class="quote">
+      <h2>Publicidad que ayuda a vender</h2>
+      <p>Convertimos tus ideas en diseños, productos y gráficos que hacen que tu marca se vea más profesional y sea más fácil de recordar.</p>
+    </section>
+
+    <p class="section-label" id="servicios">Servicios</p>
+    <section class="button-list">
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20cotizar%20un%20ploteado%20para%20mi%20veh%C3%ADculo" target="_blank"><span><span class="service-title">🚗 Ploteados</span><span class="service-small">Vehículos, vidrieras, calcomanías y gráficos personalizados</span></span></a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20cotizar%20carteler%C3%ADa%20para%20mi%20negocio" target="_blank"><span><span class="service-title">🏪 Cartelería</span><span class="service-small">Lonas, carteles, banners y publicidad para locales</span></span></a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20cotizar%20remeras%20personalizadas" target="_blank"><span><span class="service-title">👕 Serigrafía y remeras</span><span class="service-small">Estampados para empresas, grupos y emprendimientos</span></span></a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20cotizar%20productos%20sublimados" target="_blank"><span><span class="service-title">🎁 Sublimación</span><span class="service-small">Productos personalizados para regalos, marcas y eventos</span></span></a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20calcoman%C3%ADas%20personalizadas" target="_blank"><span><span class="service-title">🔥 Calcomanías</span><span class="service-small">Diseños en vinilo, logos, frases y stickers a medida</span></span></a>
+      <a class="link-btn dark" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20un%20dise%C3%B1o%20personalizado" target="_blank"><span><span class="service-title">🎨 Diseño personalizado</span><span class="service-small">Preparamos una muestra visual antes de producir</span></span></a>
+    </section>
+
+    <section class="card" id="productos">
+      <h2>Productos</h2>
+      <ul>
+        <li>Viseras parasol personalizadas.</li>
+        <li>Calcomanías para vehículos y negocios.</li>
+        <li>Carteles para locales comerciales.</li>
+        <li>Remeras estampadas para empresas, equipos y grupos.</li>
+        <li>Banners, lonas y materiales promocionales.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="quienes-somos">
+      <h2>Quiénes somos</h2>
+      <p>En Cacereca Publicidad trabajamos para que cada cliente pueda mostrar su marca con una imagen más profesional, llamativa y funcional. Buscamos que cada diseño tenga buena presencia, buena terminación y ayude a comunicar mejor lo que el negocio ofrece.</p>
+    </section>
+
+    <section class="card">
+      <h2>¿Por qué elegirnos?</h2>
+      <div class="mini-grid">
+        <div class="mini">Diseño previo</div>
+        <div class="mini">Atención directa</div>
+        <div class="mini">Terminación prolija</div>
+        <div class="mini">Trabajos a medida</div>
+      </div>
+    </section>
+
+    <section class="card" id="ploteado">
+      <h2>Ploteado de vehículos</h2>
+      <p>Tu vehículo puede convertirse en una publicidad móvil. Realizamos ploteados comerciales, gráficos decorativos, viseras parasol y diseños personalizados para autos, camionetas y vehículos de trabajo.</p>
+      <ul>
+        <li>Enviá marca, modelo y año del vehículo.</li>
+        <li>Agregá fotos de frente, laterales y parte trasera.</li>
+        <li>Pasá tu logo, idea o diseño de referencia.</li>
+      </ul>
+    </section>
+
+    <section class="quote" id="resenas">
+      <h2>Tu marca merece verse mejor</h2>
+      <p>Si estás listo para mejorar la visibilidad de tu negocio, escribinos y te orientamos con la opción más conveniente.</p>
+    </section>
+
+    <p class="section-label" id="contacto">Contacto</p>
+    <section class="button-list">
+      <a class="link-btn" href="https://wa.me/595984400000" target="_blank">💬 WhatsApp: 0984 400000</a>
+      <a class="link-btn" href="mailto:cacerecapublicidad@gmail.com">✉️ cacerecapublicidad@gmail.com</a>
+      <a class="link-btn dark" href="https://maps.google.com/?q=%C3%91emby%20Paraguay" target="_blank">📍 Estamos en Ñemby</a>
+      <a class="link-btn dark" href="#inicio">⬆️ Volver arriba</a>
+    </section>
+
+    <footer>
+      CACERECA PUBLICIDAD<br>
+      Ploteados · Serigrafía · Cartelería · Calcomanías · Sublimación<br>
+      Ñemby, Paraguay
+    </footer>
+  </main>
+</body>
+</html>
