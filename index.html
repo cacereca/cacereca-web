@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cacereca Publicidad | Ploteado de Vehículos</title>
+  <meta name="description" content="Ploteado de vehículos, viseras parasol, calcomanías, carteles y publicidad personalizada en Ñemby." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: #050505;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+    a { text-decoration: none; color: inherit; }
+    .page {
+      width: min(470px, 94%);
+      margin: 0 auto;
+      padding: 28px 0 40px;
+    }
+    .profile {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .logo-wrap {
+      width: 132px;
+      height: 132px;
+      border-radius: 50%;
+      background: #fff200;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 4px solid #ffffff;
+      box-shadow: 0 12px 28px rgba(255,242,0,.25);
+    }
+    .logo-text {
+      color: #000;
+      font-weight: 900;
+      font-size: 17px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: -.5px;
+    }
+    .profile h1 {
+      font-size: 28px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -.5px;
+      margin-bottom: 8px;
+    }
+    .bio {
+      font-size: 14px;
+      color: #e8e8e8;
+      max-width: 390px;
+      margin: 0 auto 14px;
+      line-height: 1.55;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .icons a {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #fff;
+      color: #000;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 14px;
+    }
+    .section-label {
+      font-size: 13px;
+      color: #bdbdbd;
+      text-align: center;
+      margin: 18px 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+    .link-btn {
+      background: #fff200;
+      color: #000000;
+      min-height: 58px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 14px 18px;
+      font-weight: 800;
+      font-size: 15px;
+      border: 3px solid #ffffff;
+      box-shadow: 0 7px 0 #b69f00;
+      transition: .18s ease;
+    }
+    .link-btn:hover {
+      transform: translateY(3px);
+      box-shadow: 0 4px 0 #b69f00;
+    }
+    .link-btn.dark {
+      background: #111;
+      color: #fff;
+      border-color: #fff200;
+      box-shadow: 0 7px 0 #333;
+    }
+    .card {
+      background: #101010;
+      border: 2px solid #ffffff;
+      border-radius: 22px;
+      padding: 20px;
+      margin: 18px 0;
+    }
+    .card h2 {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      color: #fff200;
+      text-align: center;
+    }
+    .card p, .card li {
+      font-size: 14px;
+      color: #efefef;
+      line-height: 1.6;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .mini-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .mini {
+      background: #fff;
+      color: #000;
+      border-radius: 15px;
+      padding: 13px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .quote {
+      background: linear-gradient(180deg, #fff200 0%, #caa900 100%);
+      color: #000;
+      border-radius: 22px;
+      padding: 22px;
+      margin: 20px 0;
+      text-align: center;
+      border: 3px solid #fff;
+    }
+    .quote h2 {
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      font-weight: 900;
+    }
+    .quote p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      color: #aaa;
+      font-size: 12px;
+      margin-top: 24px;
+      line-height: 1.6;
+    }
+    @media (max-width: 420px) {
+      .profile h1 { font-size: 24px; }
+      .link-btn { font-size: 14px; }
+      .mini-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="profile">
+      <div class="logo-wrap">
+        <div class="logo-text">CACERECA<br>PUBLICIDAD</div>
+      </div>
+      <h1>Cacereca Publicidad</h1>
+      <p class="bio">Hacemos publicidad que ayuda a tu empresa a vender más: ploteados, viseras parasol, carteles, calcomanías, remeras y diseños personalizados.</p>
+      <div class="icons">
+        <a href="https://www.instagram.com/cacerecapublicidad" target="_blank">IG</a>
+        <a href="https://www.tiktok.com/@cacereca" target="_blank">TK</a>
+        <a href="https://www.facebook.com/cacerecapublicidad" target="_blank">FB</a>
+      </div>
+    </section>
+
+    <p class="section-label">Servicios principales</p>
+    <section class="button-list">
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%20Cacereca%2C%20quiero%20cotizar%20un%20ploteado%20para%20mi%20veh%C3%ADculo" target="_blank">🚗 Cotizar ploteado de vehículo</a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20cotizar%20una%20visera%20parasol" target="_blank">😎 Cotizar visera parasol</a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20calcoman%C3%ADas%20personalizadas" target="_blank">🔥 Calcomanías personalizadas</a>
+      <a class="link-btn" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20carteles%20para%20mi%20negocio" target="_blank">📍 Carteles para negocios</a>
+      <a class="link-btn dark" href="https://wa.me/595984400000?text=Hola%2C%20quiero%20un%20dise%C3%B1o%20personalizado" target="_blank">🎨 Pedir diseño personalizado</a>
+    </section>
+
+    <section class="card">
+      <h2>Ploteado de vehículos</h2>
+      <p>Convertimos tu auto, camioneta o vehículo de trabajo en una publicidad móvil profesional. Ideal para empresas, emprendedores y particulares que quieren destacar.</p>
+      <div class="mini-grid">
+        <div class="mini">Diseño previo</div>
+        <div class="mini">Producción</div>
+        <div class="mini">Colocación</div>
+        <div class="mini">Terminación prolija</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Para cotizar</h2>
+      <ul>
+        <li>Marca, modelo y año del vehículo.</li>
+        <li>Fotos de frente, laterales y parte trasera.</li>
+        <li>Idea, logo o diseño de referencia.</li>
+        <li>Indicar si buscás algo comercial, deportivo o personalizado.</li>
+      </ul>
+    </section>
+
+    <section class="quote">
+      <h2>¿No tenés diseño?</h2>
+      <p>También podemos preparar una muestra visual antes de producir, para que apruebes el resultado final con más seguridad.</p>
+    </section>
+
+    <p class="section-label">Contacto directo</p>
+    <section class="button-list">
+      <a class="link-btn" href="https://wa.me/595984400000" target="_blank">💬 WhatsApp: 0984 400000</a>
+      <a class="link-btn" href="https://www.atom.bio/cacereca" target="_blank">🔗 Ver perfil actual de Cacereca</a>
+      <a class="link-btn dark" href="https://maps.google.com/?q=%C3%91emby%20Paraguay" target="_blank">📌 Estamos en Ñemby</a>
+    </section>
+
+    <footer>
+      CACERECA PUBLICIDAD<br>
+      Ploteados · Carteles · Calcomanías · Remeras · Sublimación
+    </footer>
+  </main>
+</body>
+</html>
